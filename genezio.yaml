@@ -1,0 +1,12 @@
+frontend:
+    path: KeyboardShortcut Library
+    publish: build
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: aqua-resonant-wolf
+name: aqua-resonant-wolf
+region: us-east-1
+yamlVersion: 2
